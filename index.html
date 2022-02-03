@@ -10,35 +10,86 @@
 </head>
 
 <body>
+  <!-- beginning of header -->
 <header>
   <h1> Weather Dashboard</h1>
   <h4>Traveling soon? Prepare for your trip <br />
     by checking your cities weather!</h4>
 </header>
-
+<!-- end of header -->
 
 
     <!-- Start of Weather Dashboard Header and Search form-->
     <main class="flex-row justify-space-between">
-      <div class="card text-dark bg-light mb-3 mt-3" style="max-width: 20rem;">
-        <div class="card-header">Search For a City</div>
-        <div class="card-body">
-          <form id="user-form" class="card-body">
-            <label class="form-label" for="city">City:</label>
-            <input
-              name="city"
-              id="citySearch"
-              type="text"
-              autofocus="true"
-              class="form-input"
-            />
-            <button type="button" class="btn btn-primary">Search</button>
-          </form>
-        </div>
-        </div>
-</main>
+      <div class="col-12 col-md-4 mt-3">
+      <div class="card">
+        <h4 class="card-header">Search By City</h4>
+        <form id="user-form" class="card-body">
+          <label class="form-label" for="username">City:</label>
+          <input name="username" id="citySearch" type="text" autofocus="true" class="form-input" />
+          <button type="submit" class="btn">Search Weather</button>
+        </form>
+      </div>
+</div>
 
 <!--End of Header and Search Form-->
+
+<!-- clear history button -->
+<div class="col-12 col-md-8">
+<div class="clearCard card">
+  <button id="clearBtn" class="btn mb-4" type="button" >Clear History</button>
+  <form id="history" ></form>
+<!--end of history button-->
+
+<!--cities' current weather card-->
+<div class= "col-12 col-lg-9">
+  <div id="currentWeather" class="col-lg-11 card m-3 d-none" >
+      <div class="card-body">
+          <h3 id="cityName" class="cityName align-middle"></h3>
+          <img id="icon">
+          <p id="temperature"></p>
+          <p id="wind"></p>
+          <p id="humidity"></p>
+          <p id="uv"></p>
+      </div>
+  </div>
+</div>
+</div>
+
+
+
+</main>
+
+
+
+
+
+
+
+
+
+
+<!-- five day forecast section -->
+<div id="fiveDayHead" class="text-center text-light p-1">
+  <h2>Five Day Weather Forecast</h2>
+</div>       
+<section class="container row my-5">
+  <div id="fiveday"></div>
+      <div class="col-lg-1"></div>
+      <div class="fiveForecast col-md-2 bg-primary text-white m-2 rounded"></div>
+     
+    </div>
+  </div>
+</section>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
 
 
 
@@ -46,6 +97,6 @@
  
 
 
-
+<script src="./assets/js/script.js"></script>
 </body>
 </html>
