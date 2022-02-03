@@ -65,6 +65,9 @@ searchEl.addEventListener('click', function () {
   citySearchHistory();
 });
 
+
+
+
 var formSubmitHandler = function (event) {
   event.preventDefault();
 
