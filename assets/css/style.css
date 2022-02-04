@@ -69,3 +69,8 @@ header {
     width: 150px;
     margin-left: 50px;
 }
+
+#currentWeatherCard {
+    margin-left: 30rem;
+    float: center;
+}
