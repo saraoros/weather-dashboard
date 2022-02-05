@@ -23,6 +23,14 @@ axios.get(weatherApi).then(function (response) {
   // make a get request to weather api
  
    currentWeatherEl.classList.remove("d-none");
+   
+  
+  // start of B.C.
+var currentDate = new Date(response.data.dt * 1000);
+var day = currentDate.getDate();
+var month = currentDate.getMonth() + 1;
+var year = currentDate.getFullYear();
+cityNameEl.innerHTML = response.data.name + " " + month + "/" + day + "/" + year;
 
 
 // weather icons
