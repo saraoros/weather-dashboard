@@ -21,7 +21,7 @@
 
     <!-- Start of Weather Dashboard Header and Search form-->
     <main class="flex-row justify-space-between">
-      <div class="col-12 col-md-4 mt-3">
+      <div class="col-12 col-md-4 mt-3 w-25">
       <div class="card">
         <h4 class="card-header">Search By City</h4>
         <form id="user-form" class="card-body">
@@ -44,7 +44,8 @@
 <!--cities' current weather card-->
 <div id="currentWeatherCard" class= "col-12 col-lg-9">
   <div id="currentWeather" class="col-lg-11 card ml-3 d-none" >
-      <div class="card-body">
+    <div class="row">
+      <!-- <div class="card-body"> -->
           <h3 id="cityName" class="cityName align-middle"></h3>
           <img id="icon">
           <p id="temperature">Temperature: </p>
@@ -57,9 +58,6 @@
 </div>
 
 </main>
-
-
-
 
 
 
@@ -86,14 +84,8 @@
 
 
 
-
-
- 
-
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.25.0/axios.min.js" integrity="sha512-/Q6t3CASm04EliI1QyIDAA/nDo9R8FQ/BULoUFyN4n/BDdyIxeH7u++Z+eobdmr11gG5D/6nPFyDlnisDwhpYA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="./assets/js/script.js"></script>
 
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 </body>
 </html>

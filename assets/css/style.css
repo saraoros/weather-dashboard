@@ -35,7 +35,13 @@ header {
     font-weight: bold;
 }
 
-
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: #03045e;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+}
 
 .clearCard {
     padding-top: 20px;
@@ -70,7 +76,7 @@ header {
     margin-left: 50px;
 }
 
-#currentWeatherCard {
+#currentWeather {
     margin-left: 30rem;
     float: center;
 }
