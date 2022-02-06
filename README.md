@@ -25,4 +25,4 @@
 
 ### Personal Challenges While Working On App:
 
-This project truly challenged me in so many ways. Although it was greatly challenging and very time consuming, I also feel like I have learned so much! This challenge forced me to really go above and beyond on reading API documentations properly, learning new ways to code like using 'axios', and watched numerous videos on examples on how to properly use and get information from API's. Although there were many victories on here, there are still some things that need to be improved. I look forward to being able to improve this project in the future.
+This project truly challenged me in so many ways. Although it was greatly challenging and very time consuming, I also feel like I have learned so much! This challenge forced me to really go above and beyond on reading API documentations properly, learning new ways to code like using `axios`, and watched numerous videos on examples on how to properly use and get information from API's. Although there were many victories on here, there are still some things that need to be improved. I look forward to being able to improve this project in the future.
